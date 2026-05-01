@@ -2,7 +2,7 @@
 
 ## Entity Relationship Diagram
 
-![Database diagram](db-diagram.png)
+![Database diagram](task-manager-ERD.png)
 
 ## Models
 
