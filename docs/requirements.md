@@ -1,24 +1,27 @@
-# Funcionalidades
+# Requirements
 
-## El usuario puede:
-- Registrarse con email y contraseña
-- Iniciar y cerrar sesión (JWT)
-- Crear una tarea
-- Ver todas sus tareas
-- Ver el detalle de una tarea
-- Editar una tarea
-- Eliminar una tarea
-- Filtrar tareas por estado y prioridad
-- Marcar una tarea como completada
+## Features
 
-## Reglas de negocio
-- Un usuario solo puede ver y modificar sus propias tareas
-- Una tarea debe tener al menos un título
-- La fecha límite no puede ser una fecha pasada al crearla
-- Una tarea completada no puede editarse
+- User registration with email and password
+- Login and logout (JWT)
+- Create a task
+- View all tasks
+- View task details
+- Edit a task
+- Delete a task
+- Filter tasks by status and priority
+- Mark a task as completed
 
-## Requisitos no funcionales
-- Autenticación con JWT
-- Respuestas de error claras y consistentes
-- Paginación en el listado de tareas
-- Documentación automática con Swagger
+## Business Rules
+
+- A user can only view and modify their own tasks
+- A task must have at least a title
+- The due date cannot be a past date when creating a task
+- A completed task cannot be edited
+
+## Non-Functional Requirements
+
+- JWT authentication
+- Clear and consistent error responses
+- Pagination on task listing
+- Auto-generated API documentation (Swagger)
