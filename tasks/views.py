@@ -8,6 +8,7 @@ from .serializers import TaskSerializer
 class TaskViewSet(viewsets.ModelViewSet):
     serializer_class = TaskSerializer
     queryset = Task.objects.none()
+    filterset_fields = ['status', 'priority']
 
     def get_queryset(self):
         if getattr(self, 'swagger_fake_view', False):
